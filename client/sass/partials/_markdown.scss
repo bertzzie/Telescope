@@ -47,4 +47,19 @@
 	h5{
 		font-size:14px;
 	}
+	blockquote{
+		background-color: $lightest-grey;
+		border-left: 3px solid $grey;
+		font-color: $dark-grey;
+		font-style: italic;
+		margin: 1em;
+		padding: .5em;
+	}
+	pre{
+		border: 1px solid $dark-grey;
+		font-family: monospace;
+		font-size: 14px;
+		overflow-x: scroll;
+		padding: .5em;
+	}
 }
